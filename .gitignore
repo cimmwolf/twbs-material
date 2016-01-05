@@ -1,0 +1,9 @@
+/dist/
+
+### JetBrains template
+.idea/
+### Node template
+npm-debug.log*
+/node_modules/
+### Composer template
+vendor/

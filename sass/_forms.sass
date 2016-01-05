@@ -1,0 +1,54 @@
+@import "../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/forms"
+
+.form-control
+  background: transparent
+  border-top: none
+  border-left: none
+  border-right: none
+  padding-left: 0
+  padding-right: 0
+  padding-top: $padding-base-vertical * 3 + $font-size-base * 0.8
+  transition: border-color 300ms ease
+
+  &:focus
+    box-shadow: none !important
+    border-width: 2px
+    padding-bottom: $padding-base-vertical - 1
+
+  .has-error &
+    border-color: $state-danger-bg !important
+
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] &
+    cursor: $cursor-disabled
+    background-color: transparent
+    color: $text-white-muted
+    border-bottom: 2px dotted
+
+.floating-label
+  position: absolute
+  line-height: $line-height-computed
+  top: $padding-base-vertical * 3 + $font-size-base * 0.8
+  font-weight: normal
+  z-index: -1
+  color: $text-muted
+  margin: 0
+  transition: top 300ms ease-in-out, font-size 300ms ease-in-out, color 300ms linear
+
+  .form-control:focus + &,
+  .form-control-filled + &,
+  .form-control[value]:not([value = ""]) + &
+    font-size: 80%
+    top: $padding-base-vertical * 2
+    line-height: 1
+
+  .form-control:focus + &
+    color: $color-accent
+
+  .has-error &
+    top: $input-height-base + $padding-base-vertical !important
+    color: $brand-danger !important
+
+.form-group
+  position: relative

@@ -1,0 +1,11 @@
+@import "../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/navbar"
+
+.navbar-nav 
+  > .active > a
+    &,
+    &:hover,
+    &:focus 
+      padding-bottom: 8px
+      border-bottom: 2px solid $color-accent
+      @media (min-width: $grid-float-breakpoint)
+        padding-bottom: ($navbar-padding-vertical - 2px)

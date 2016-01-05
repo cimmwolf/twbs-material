@@ -1,0 +1,17 @@
+{
+  "name": "cimmwolf/twbs-material",
+  "description": "Twitter bootstrap + Google material design",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Denis Beliaev",
+      "email": "cimmwolf@gmail.com"
+    }
+  ],
+  "require": {
+    "bower-asset/gsap": "1.18.*",
+    "bower-asset/jquery": "2.0.3",
+    "twbs/bootstrap-sass": "3.3.6"
+  }
+}

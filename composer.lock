@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "eacfb5893309dc977c637e9e6e1b33dc",
+    "content-hash": "f0eb698f7944dec528ba03d2b2aed916",
+    "packages": [
+        {
+            "name": "bower-asset/gsap",
+            "version": "1.18.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greensock/GreenSock-JS.git",
+                "reference": "b3d1ec5c50859a41a6574f098b698508e5304b55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greensock/GreenSock-JS/zipball/b3d1ec5c50859a41a6574f098b698508e5304b55",
+                "reference": "b3d1ec5c50859a41a6574f098b698508e5304b55",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./src/uncompressed/TweenMax.js",
+                "bower-asset-ignore": []
+            },
+            "license": [
+                "GreenSock's standard no-charge license can be viewed at http://greensock.com/standard-license. Club GreenSock members are granted additional rights; see http://greensock.com/club/ and http://greensock.com/licensing/ for details."
+            ],
+            "description": "Think of GSAP as the Swiss Army Knife of animation...but better. It animates anything JavaScript can touch (CSS properties, canvas library objects, SVG, generic objects, whatever) and it solves lots of browser inconsistencies, all with blazing speed (up to 20x faster than jQuery). See http://greensock.com/why-gsap/ for details. Other libraries like jQuery, Velocity, Transit, and Zepto only tween CSS properties. Plus, their sequencing abilities and runtime controls pale by comparison. Simply put, GSAP is the most flexible high-performance animation library on the planet. And unlike monolithic frameworks like Famo.us or Angular that dictate how you structure your apps, GSAP simply owns the animation layer; sprinkle it wherever you want. GSAP stands for the GreenSock Animation Platform. There's a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery or other libraries. See http://greensock.com/gsap/ for details."
+        },
+        {
+            "name": "bower-asset/jquery",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery/jquery.git",
+                "reference": "f852e631ba85af7da4ad7594785e122504e7b233"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery/jquery/zipball/f852e631ba85af7da4ad7594785e122504e7b233",
+                "reference": "f852e631ba85af7da4ad7594785e122504e7b233",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "jquery.js"
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "jQuery component",
+            "keywords": [
+                "component",
+                "jquery"
+            ]
+        },
+        {
+            "name": "twbs/bootstrap-sass",
+            "version": "v3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap-sass.git",
+                "reference": "446b41a5af0f20f139a6d33ded2a62101c3bd5a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap-sass/zipball/446b41a5af0f20f139a6d33ded2a62101c3bd5a1",
+                "reference": "446b41a5af0f20f139a6d33ded2a62101c3bd5a1",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto"
+                },
+                {
+                    "name": "Thomas McDonald"
+                },
+                {
+                    "name": "Tristan Harward"
+                },
+                {
+                    "name": "Peter Gumeson"
+                },
+                {
+                    "name": "Gleb Mazovetskiy"
+                },
+                {
+                    "name": "Jacob Thornton"
+                }
+            ],
+            "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
+            "homepage": "http://github.com/twbs/bootstrap-sass",
+            "keywords": [
+                "bootstrap",
+                "css",
+                "sass"
+            ],
+            "time": "2015-11-24 23:06:35"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

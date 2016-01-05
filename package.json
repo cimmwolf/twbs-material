@@ -1,0 +1,18 @@
+{
+  "name": "twbs-material",
+  "version": "0.0.1",
+  "description": "Twitter bootstrap + Google material design",
+  "main": "demo.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Beliaev",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
